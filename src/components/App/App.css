@@ -1,0 +1,40 @@
+html {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 15px;
+  }
+}
+.App {
+  text-align: center;
+  font-family: cursive, fantasy, monospace;
+  color: white;
+  height: 75px;
+  padding: .66rem 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.App h1 {
+  padding: .66rem 0;
+  text-align: center;
+  font-family: cursive, sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+
+
